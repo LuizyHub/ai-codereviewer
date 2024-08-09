@@ -158,6 +158,7 @@ function createComment(
     if (!file.to) {
       return [];
     }
+    console.log(reviewComment);
     return {
       body: aiResponse.reviewComment,
       path: file.to,
